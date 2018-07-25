@@ -1,0 +1,35 @@
+{
+  "name": "morning-ritual-checklist-api",
+  "version": "1.0.0",
+  "description": "Morning Ritual Checklist",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplatonov/morning-ritual-checklist-api.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
