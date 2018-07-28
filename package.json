@@ -1,7 +1,7 @@
 {
-  "name": "morning-ritual-checklist-api",
+  "name": "habit-api",
   "version": "1.0.0",
-  "description": "Morning Ritual Checklist",
+  "description": "Habit API",
   "engines": {
     "node": "8.11.3"
   },
